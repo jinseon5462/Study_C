@@ -3,6 +3,8 @@ package basic01;
 public class Cat {
     private String name;
     private int age;
+    String result;
+
 
     public void setName(String name){
         this.name = name;
@@ -12,10 +14,9 @@ public class Cat {
         return name;
     }
 
-    public void setAge(int age){
+    public void setAge(int age) {
         this.age = age;
     }
-
     public int getAge(){
         return age;
     }

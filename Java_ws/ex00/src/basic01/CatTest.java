@@ -2,6 +2,8 @@ package basic01;
 
 public class CatTest {
     public static void main(String[] args){
+
+
         Cat cat1 = new Cat();
         cat1.setName("야옹이");
         cat1.setAge(24);
@@ -22,5 +24,6 @@ public class CatTest {
         cat4.setAge(21);
         System.out.println("\n이름 : " + cat4.getName());
         System.out.println("나이 : " + cat4.getAge());
+
     }
 }
