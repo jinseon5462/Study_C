@@ -1,7 +1,7 @@
 package basic01;
 
 public class StudentTest {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         //1.기본생성자 이용
         Student studentLee = new Student();
