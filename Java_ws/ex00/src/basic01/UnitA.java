@@ -7,7 +7,7 @@ public class UnitA {
         this.energy = energy;
     }
 
-    public void attack(){
+    public void attackB(UnitB unitB){
 
     }
 }
