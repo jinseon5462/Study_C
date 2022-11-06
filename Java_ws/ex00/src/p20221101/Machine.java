@@ -16,7 +16,7 @@ public class Machine {
     }
     public int showMenu(){
         if(money >= 1200){
-            System.out.println("====메뉴====");
+            System.out.println("================메뉴================");
             System.out.println("1. 콜라(1200) 2. 물(800) 3. 실론티(1000)");
         }else if(money >= 800){
             System.out.println("====메뉴====");
