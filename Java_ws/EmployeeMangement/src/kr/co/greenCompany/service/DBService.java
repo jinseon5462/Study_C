@@ -35,7 +35,7 @@ public class DBService implements IDBService{
     @Override
     public void updateEmp(Employee emp) {
         for(int i = 0; i < empList.size(); i++){
-            if(empList.equals(emp)){
+            if(empList.get(i).equals(emp)){
                 empList.set(i, emp);
             }
         }

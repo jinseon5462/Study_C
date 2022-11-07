@@ -32,8 +32,7 @@ public class BallTest {
                 greenCount++;
             }
         }
-
-    System.out.println("빨간공 : " + redCount);
+        System.out.println("빨간공 : " + redCount);
         System.out.println("파란공 : " + blueCount);
         System.out.println("녹색공 : " + greenCount);
     }

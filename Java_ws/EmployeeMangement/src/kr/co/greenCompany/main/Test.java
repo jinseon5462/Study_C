@@ -45,9 +45,9 @@ public class Test {
         dbs.deleteEmp(emp2.getEmpno());
         dbs.deleteEmp(emp3.getEmpno());
 
-        ArrayList<Employee> list = new ArrayList<>();
 
         // 리스트 출력
+        ArrayList<Employee> list = new ArrayList<>();
         System.out.println(dbs.getEmpList());
 
     }
